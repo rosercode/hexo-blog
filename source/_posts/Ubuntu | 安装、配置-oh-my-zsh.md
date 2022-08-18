@@ -4,7 +4,7 @@ date: 2022-05-11 07:11:05
 tags:
 ---
 
-我是短小精悍的文章摘要(๑•̀ㅂ•́) ✧
+Ubuntu | 安装、配置 oh-my-zsh
 
 <!-- more -->
 
@@ -93,4 +93,9 @@ plugins=(
 
 一开始，我认为是没有必要的，而后面我在实际中，输入重复的命令输入太多了（我不想配置别名 alias），这个插件解决了我的需求
 
-### jump
+### autojump
+
+```bash
+sudo apt-get install autojump
+```
+
