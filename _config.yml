@@ -98,8 +98,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: purer  
+theme: landscape
 language: zh-CN 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/rosercode/hexo-blog.git
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
+
+
+# token: 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
