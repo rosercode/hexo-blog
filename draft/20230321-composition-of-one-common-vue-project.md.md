@@ -12,3 +12,68 @@
 
 1. 你可以快速上手一个新的 Vue 项目。
 2. 为你的前端项目开发提供一个范式（规范）。
+
+## 技术点
+
+- Vue
+- Vue-Router
+- Axios
+- Vue 组件库（比如 Element-UI）
+
+| 序号 | 目录            | 作用          |
+| ---- | --------------- | ------------- |
+| 1    | src/api         | API           |
+| 2    | src/router      | Vue路由文件   |
+| 3    | src/utils/      | 存放工具      |
+| 4    | src/components/ | 存放 Vue 组件 |
+| 5    | src/views/      | Vue 视图      |
+
+## utils/reques.js
+
+主要作用如下:
+
+1. 封装 axios：axios 是一个常用的基于 Promise 的 HTTP 请求库，`src/utils/request.js` 通常会使用 axios 封装发送请求的方法。
+2. 统一处理请求：在 `src/utils/request.js` 中，我们可以设置默认的请求头、请求超时时间、请求拦截器和响应拦截器等。这些设置可以帮助我们在发起 HTTP 请求时统一处理请求参数，以及在接收到响应后统一处理响应结果。
+3. 统一处理错误：`src/utils/request.js` 可以帮助我们统一处理 HTTP 请求过程中可能出现的错误，比如请求超时、网络错误等。
+4. 可扩展性：`src/utils/request.js` 可以被其他业务模块引用，同时也可以被扩展以满足不同的业务需求。例如，我们可以在 `src/utils/request.js` 中设置一个自定义的 baseURL，来统一设置请求的根路径。
+
+总之，`src/utils/request.js` 是一个常用的工具类，它可以帮助我们封装 HTTP 请求的过程，并提供统一的处理和扩展接口，以提高开发效率和代码的可维护性。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
